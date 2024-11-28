@@ -25,7 +25,6 @@ bot.on('message', (msg) => {
   }
 
   if (messageText === '/start') {
-    // TODO: change this to ultimateReceiver
     bot.sendMessage(
       chatId,
       'Please enter the time of feed in this format: "h:mma<space>ml". Example: 2:30pm 100'
